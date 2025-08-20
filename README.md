@@ -76,7 +76,8 @@ This project was built as part of a hackathon to showcase **next-gen interview e
 
 ## 📸 Screenshots
 
-
+![Home Page](./images/home.png)
+![Home Page](./images/start.png)
 
 ---
 
