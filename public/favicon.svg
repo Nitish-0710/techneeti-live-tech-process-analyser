@@ -1,0 +1,15 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Glowing blurred circle -->
+  <circle cx="32" cy="32" r="24" fill="rgba(59, 130, 246, 0.2)" filter="url(#blur)" />
+  
+  <!-- Code bracket shape -->
+  <path d="M24 20 L16 32 L24 44" stroke="#3b82f6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M40 20 L48 32 L40 44" stroke="#3b82f6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Blur filter definition -->
+  <defs>
+    <filter id="blur" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB" >
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#3b82f6" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+</svg>
