@@ -1,73 +1,93 @@
-# Welcome to your Lovable project
+# 💡 Live Technical Thought Process Evaluator
 
-## Project info
+## 📌 Overview
 
-**URL**: https://lovable.dev/projects/c111f3bd-c704-49a6-aa04-e47f23287f8f
+The **Live Technical Thought Process Evaluator** is a platform designed to **analyze how candidates solve coding problems in real-time**, not just their final solution.
+It captures **key logs, code runs, edits, refactors, and timeline events** while integrating with **Worqhat APIs** for **code analysis and NLP feedback**.
 
-## How can I edit this code?
+This project was built as part of a hackathon to showcase **next-gen interview evaluation tools** that focus on *problem-solving methodology* rather than only final outputs.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## ✨ Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c111f3bd-c704-49a6-aa04-e47f23287f8f) and start prompting.
+* 🖊️ **Code Editor** – Candidate-friendly coding environment.
+* ⌨️ **Key Logs Tracking** – Captures keystrokes, edits, copy-paste events.
+* 🔄 **Run Tracking** – Tracks number of code executions and refactors.
+* ⏳ **Timeline** – Displays chronological sequence of coding actions.
+* 📊 **Worqhat API Integration** – For AI-powered evaluation and NLP-based feedback.
+* 📑 **Dashboard** – Provides structured reports for evaluators.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🛠️ Tech Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+* **Frontend:** React.js, TailwindCSS
+* **Backend:** Node.js, Express.js
+* **AI/Analysis:** Worqhat APIs (Code Analysis + NLP Feedback)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## ⚙️ Installation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+1. **Clone the repo**
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+   ```bash
+   git clone https://github.com/<your-username>/<your-repo>.git
+   cd <your-repo>
+   ```
 
-# Step 3: Install the necessary dependencies.
-npm i
+2. **Install dependencies**
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+   ```bash
+   npm install
+   ```
 
-**Edit a file directly in GitHub**
+3. **Set up environment variables**
+   Create a `.env` file in the root directory:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+   ```env
+   WORQHAT_API_KEY=your_worqhat_api_key
+   ```
 
-**Use GitHub Codespaces**
+4. **Run the backend**
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+   ```bash
+   npm run server
+   ```
 
-## What technologies are used for this project?
+5. **Run the frontend**
 
-This project is built with:
+   ```bash
+   npm run dev
+   ```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 🚀 Usage
 
-Simply open [Lovable](https://lovable.dev/projects/c111f3bd-c704-49a6-aa04-e47f23287f8f) and click on Share -> Publish.
+1. Start the app as an interviewer or candidate.
+2. Candidates write and run code in the editor.
+3. All keystrokes, logs, runs, and edits are tracked automatically.
+5. Worqhat APIs provide **AI-based analysis + feedback**.
+6. Evaluators view reports on the **dashboard**.
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 📸 Screenshots
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+
+---
+
+## 🙌 Team & Contributions
+
+This project was developed during a hackathon by:
+
+* 👤 **Nitish Sahu** 
+* 👤 **Manthan Sali** 
+* 👤 **Aditya Rana** 
+
+Contributions are welcome! Please feel free to fork this repo and submit pull requests.
+
+---
