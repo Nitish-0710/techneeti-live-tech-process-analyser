@@ -33,7 +33,8 @@ This project was built as part of a hackathon to showcase **next-gen interview e
 1. **Clone the repo**
 
    ```bash
-   git clone https://github.com/<your-username>/<your-repo>.git
+   git clone https://github.com/Nitish-0710/techneeti-live-tech-process-analyser.git
+   
    cd <your-repo>
    ```
 
